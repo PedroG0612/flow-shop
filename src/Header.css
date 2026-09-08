@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Momo+Trust+Display&display=swap');
+
+
+header{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  font-family: 'Momo trust display', cursive;
+  font-size: 0.9rem;;
+}
+
+.icon{
+  width: 2rem;
+  height: 2rem;
+}
+#logo{
+  width: 4rem;
+  height: 4rem;
+  padding-right: 3rem;
+}
+
+
+
+a.nav-link{
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+}
+
+a.nav-link:hover{
+  transform: scale(1.1,1.1);
+}
+
+a.nav-link:hover::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #0f0e0e;
+  margin-top: 2px;
+}
+
+.Header-left{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Header-right{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+

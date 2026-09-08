@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+
+
+h1{
+    font-family: 'Fugaz One', cursive;
+}
+h2{
+    font-family: 'Freeman', cursive;
+    font-size: 30px;
+}
+
+.Categories-list{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px;
+    text-align: center;
+}
+img{
+    height: 15rem;
+    width: 17rem;
+}
+
+.botao{
+    display:flex;
+    justify-content: end;
+    padding: 100px 50px;
+}
+
+button{
+    font-family: 'Freeman', cursive;
+    color: white;
+    background-color: #f10000;
+    border-radius: 20px;
+    width: 220px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Title{
+    padding-left: 50px;
+}
